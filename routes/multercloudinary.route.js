@@ -18,9 +18,9 @@ var mime=require('mime');
 var cloudinary = require('cloudinary');
 var cloudinaryStorage = require('multer-storage-cloudinary');
 cloudinary.config({
-    cloud_name: 'dh3uy7kus',
-    api_key: '713573473328471',
-    api_secret: 'aJt85jONbmYKNM7qbvBYG2GeNaw'
+    cloud_name: '',
+    api_key: '',
+    api_secret: ''
 });
 
 var storage = cloudinaryStorage({
